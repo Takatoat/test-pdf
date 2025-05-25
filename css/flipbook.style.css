@@ -1,21 +1,3 @@
-/* Force RTL direction for page navigation arrows */
-.fb-right-arrow:before {
-  content: "\f104" !important; /* Left arrow icon (Font Awesome) */
-}
-
-.fb-left-arrow:before {
-  content: "\f105" !important; /* Right arrow icon (Font Awesome) */
-}
-
-/* Optional: flip arrow icons based on direction */
-html[dir="rtl"] .fb-left-arrow:before {
-  content: "\f105"; /* Right-pointing arrow (for 'left' side in RTL) */
-}
-
-html[dir="rtl"] .fb-right-arrow:before {
-  content: "\f104"; /* Left-pointing arrow (for 'right' side in RTL) */
-}
-
 .flipbook-overlay {
     position: fixed;
     top: 0;
