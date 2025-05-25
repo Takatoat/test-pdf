@@ -68,7 +68,7 @@
     right: 0;
     bottom: 0;
     overflow: hidden;
-    direction: lrt !important;
+    direction: ltr !important;
 }
 
 .flipbook-bookLayer {
@@ -504,7 +504,7 @@
     width: 3em !important;
     font-size: 1em !important;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    text-align: right !important;
+    text-align: left !important;
     line-height: 30px !important;
     /*z-index: 9999;*/
     height: 35px;
@@ -2077,5 +2077,3 @@
 .annotationLayer .fileAttachmentAnnotation {
   cursor: pointer;
 }
-
-
