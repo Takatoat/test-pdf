@@ -101,7 +101,7 @@
 }
 
 .flipbook-zoomLayer-inside .flipbook-carousel-page {
-    float: left;
+    float: right;
 }
 
 .flipbook-center-container {
@@ -180,7 +180,7 @@
     -webkit-transform-origin: 0 0;
     /* transform:translateZ(0); */
     /* -webkit-transform:translateZ(0); */
-    float: left;
+    float: right;
     user-select: none;
     pointer-events: none;
 }
@@ -504,7 +504,7 @@
     width: 3em !important;
     font-size: 1em !important;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    text-align: left !important;
+    text-align: right !important;
     line-height: 30px !important;
     /*z-index: 9999;*/
     height: 35px;
