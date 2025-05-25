@@ -27,8 +27,6 @@
         layout: 3,
         lightBox: false, // Open directly without lightbox
         rtl: true,
-        startPage: 1,
-        pageMode: 'double',
         currentPage: { vAlign: "bottom", hAlign: "left" },
 
         // Button Options
@@ -62,18 +60,6 @@
   </script>
 
   <style>
-    /* Flip right arrow to be a 'left arrow' in RTL */
-    html[dir="rtl"] .flipbook-right-arrow:before {
-      content: "\f104"; /* fa-angle-left */
-      font-family: "FontAwesome";
-      }
-
-    /* Flip left arrow to be a 'right arrow' in RTL */
-    html[dir="rtl"] .flipbook-left-arrow:before {
-      content: "\f105"; /* fa-angle-right */
-      font-family: "FontAwesome";
-      }
-
     html, body {
       height: 100%;
       margin: 0;
