@@ -68,7 +68,7 @@
     right: 0;
     bottom: 0;
     overflow: hidden;
-    direction: rtl !important;
+    direction: lrt !important;
 }
 
 .flipbook-bookLayer {
@@ -101,7 +101,7 @@
 }
 
 .flipbook-zoomLayer-inside .flipbook-carousel-page {
-    float: right;
+    float: left;
 }
 
 .flipbook-center-container {
@@ -180,7 +180,7 @@
     -webkit-transform-origin: 0 0;
     /* transform:translateZ(0); */
     /* -webkit-transform:translateZ(0); */
-    float: right;
+    float: left;
     user-select: none;
     pointer-events: none;
 }
